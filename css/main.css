@@ -1,12 +1,14 @@
 /* import google font and config for all text*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Righteous&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 * {
-    font-family: Montserrat;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+
 }
 
 p {
-    font-size: 13px;
+    font-size: 11px;
 }
 
 body {
@@ -47,6 +49,10 @@ li {
 .marg-cs{
     margin-top: -6px;
 }
-.bg-card{
+/* .bg-card{
     background-color: #303941;
+} */
+.bg-card {
+    background-color: #3039414f;
+    backdrop-filter: blur(5px);
 }
