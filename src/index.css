@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+    font-size: 11px;
+}
+
+body {
+    background: linear-gradient(
+        90deg,
+        rgba(27, 38, 45, 1) 0%,
+        rgba(42, 54, 64, 1) 49%,
+        rgba(35, 39, 43, 1) 100%
+    );
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure particles stay behind content */
+}
+
+.first-row {
+    height: 100%;
+    width: 100%;
+    max-width: 1500px;
+}
+
+li {
+    font-size: 12px;
+}
+
+.first-col {
+    min-height: 570px;
+    max-height: 55rem;
+    height: 90vh;
+    background-color: #3039414f;
+    backdrop-filter: blur(5px);
+}
+
+.second-col {
+    min-height: 570px;
+    max-height: 600px;
+    height: 90vh;
+}
+
+.second-col div h3 {
+    color: #f2b84b;
+    margin-bottom: -5px;
+}
+
+.marg-cs {
+    margin-top: -6px;
+}
+
+.bg-card {
+    background-color: #3039414f;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-card-hover {
+    background-color: #3039414f;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-card-hover:hover {
+    transform: scale(1.05);
+    background-color: #3a46524f; /* Slightly lighter or different shade */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
