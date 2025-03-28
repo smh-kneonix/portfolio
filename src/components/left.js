@@ -8,6 +8,7 @@ const Left = () => {
                 {/* image */}
                 <img
                     className="rounded-circle col-5 col-md-7"
+                    alt="profile-pic"
                     src={profile}
                 />
                 {/* summary text */}
@@ -34,26 +35,26 @@ const Left = () => {
                     </strong>
                     <div className="text-white row row-cols-12 mt-1">
                         <p>
-                            <strong>Frameworks & Languages:</strong>
+                            <strong>Frameworks & Languages: </strong>
                             JavaScript, Type Script, Node JS, Express JS, Nest
                             JS, Bootstrap
                         </p>
                         <p>
-                            <strong>Databases & ORMs:</strong>
+                            <strong>Databases & ORMs: </strong>
                             MongoDB, MySQL, Mongoose, Prisma, Redis, Type ORM,
                             Minio, S3
                         </p>
                         <p>
-                            <strong>Automation:</strong>
+                            <strong>Automation: </strong>
                             Docker, CI (GitHub Action), Kubernetes
                         </p>
                         <p>
-                            <strong>Architecture:</strong>
+                            <strong>Architecture: </strong>
                             Microservice, Graph QL, Rest API, JWT, cookies
                             session, OAth2
                         </p>
                         <p>
-                            <strong>Soft Skills:</strong>
+                            <strong>Soft Skills: </strong>
                             Git, GitHub, Notion, Jira
                         </p>
                     </div>

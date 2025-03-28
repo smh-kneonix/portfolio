@@ -17,7 +17,6 @@ const RightTop = () => {
                         <i className="text-light bi bi-geo-alt"> </i>
                         <a
                             className="text-light text-decoration-none"
-                            target="_blank"
                             href="https://www.google.com/maps/place/Tehran,+Tehran+Province"
                         >
                             iran tehran
@@ -27,7 +26,6 @@ const RightTop = () => {
                         <i className="text-light bi bi-envelope"> </i>
                         <a
                             className="text-light text-decoration-none"
-                            target="_blank"
                             href="mailto:s.m.h.mahmodian@gmail.com"
                         >
                             s.m.h.mahmodian
@@ -37,23 +35,21 @@ const RightTop = () => {
                         <i className="text-light bi bi-linkedin"> </i>
                         <a
                             className="text-light text-decoration-none"
-                            target="_blank"
                             href="https://www.linkedin.com/in/s-m-h-mahmodian-03a90a216"
                         >
                             smh-kneonix
                         </a>
                     </div>
 
-                    <a href="https://github.com/smh-kneonix" target="_blank">
+                    <a href="https://github.com/smh-kneonix" >
                         <i className="text-warning m-1 fs-4 bi bi-github"></i>
                     </a>
                     <a
                         href="https://www.instagram.com/smh_kneonix?igsh=MWl3c3pyY3BocnEzeA=="
-                        target="_blank"
                     >
                         <i className="text-warning m-1 fs-4 bi bi-instagram"></i>
                     </a>
-                    <a href="https://t.me/smh-kneonix" target="_blank">
+                    <a href="https://t.me/smh-kneonix">
                         <i className="text-warning m-1 fs-4 bi bi-telegram"></i>
                     </a>
                     <br />
