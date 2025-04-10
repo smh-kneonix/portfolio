@@ -35,6 +35,8 @@ canvas {
     height: 100%;
     width: 100%;
     max-width: 1500px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 li {
@@ -42,9 +44,11 @@ li {
 }
 
 .first-col {
-    min-height: 570px;
     max-height: 55rem;
-    height: 90vh;
+    position: relative;
+    display: block;
+    height: auto;
+
     background-color: #3039414f;
     backdrop-filter: blur(5px);
 }
